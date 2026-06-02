@@ -101,32 +101,46 @@
 				<div
 					class="rounded-[var(--ff-radius-md)] border border-[rgba(255,255,255,0.07)] bg-[rgba(255,255,255,0.025)] p-4"
 				>
-					<p class="text-2xl font-semibold tracking-tight">$8.7k</p>
-					<p class="mt-1 text-xs leading-5 text-[var(--ff-text-muted)]">warm revenue surfaced</p>
+					<p class="text-xs font-semibold tracking-[0.12em] text-[var(--ff-cyan)] uppercase">
+						Example signal
+					</p>
+					<p class="mt-3 text-2xl font-semibold tracking-tight">$8.7k</p>
+					<p class="mt-1 text-xs leading-5 text-[var(--ff-text-muted)]">in open opportunities</p>
 				</div>
 
 				<div
 					class="rounded-[var(--ff-radius-md)] border border-[rgba(255,255,255,0.07)] bg-[rgba(255,255,255,0.025)] p-4"
 				>
-					<p class="text-2xl font-semibold tracking-tight">7</p>
-					<p class="mt-1 text-xs leading-5 text-[var(--ff-text-muted)]">active follow-up signals</p>
+					<p class="text-xs font-semibold tracking-[0.12em] text-[var(--ff-amber)] uppercase">
+						Queue pressure
+					</p>
+					<p class="mt-3 text-2xl font-semibold tracking-tight">7</p>
+					<p class="mt-1 text-xs leading-5 text-[var(--ff-text-muted)]">leads need attention</p>
 				</div>
 
 				<div
-					class="rounded-[var(--ff-radius-md)] border border-[rgba(255,255,255,0.07)] bg-[rgba(255,255,255,0.025)] p-4"
+					class="rounded-[var(--ff-radius-md)] border border-[rgba(94,242,184,0.12)] bg-[rgba(94,242,184,0.035)] p-4"
 				>
-					<p class="text-2xl font-semibold tracking-tight">1</p>
-					<p class="mt-1 text-xs leading-5 text-[var(--ff-text-muted)]">recommended next action</p>
+					<p class="text-xs font-semibold tracking-[0.12em] text-[var(--ff-mint)] uppercase">
+						Next best move
+					</p>
+					<p class="mt-3 text-2xl font-semibold tracking-tight">1</p>
+					<p class="mt-1 text-xs leading-5 text-[var(--ff-text-muted)]">
+						follow-up rises to the top
+					</p>
 				</div>
 			</div>
 		</div>
 
 		<div class="relative z-10 lg:scale-[0.96] xl:scale-100">
 			<div
-				class="pointer-events-none absolute -top-8 left-6 z-20 hidden rounded-[var(--ff-radius-md)] border border-[rgba(56,213,255,0.18)] bg-[rgba(8,11,16,0.82)] px-4 py-3 shadow-[0_18px_50px_rgba(0,0,0,0.35)] backdrop-blur-xl md:block"
+				class="pointer-events-none absolute -top-8 left-[5.5rem] z-20 hidden rounded-[var(--ff-radius-md)] border border-[rgba(56,213,255,0.22)] bg-[rgba(8,11,16,0.86)] px-4 py-3 shadow-[0_18px_50px_rgba(0,0,0,0.35)] backdrop-blur-xl md:block"
 			>
-				<p class="text-xs font-medium text-[var(--ff-cyan)]">New quote request</p>
-				<p class="mt-1 text-sm text-[var(--ff-text-muted)]">No response in 18h</p>
+				<p class="text-xs font-semibold tracking-[0.08em] text-[var(--ff-cyan)] uppercase">
+					Signal detected
+				</p>
+				<p class="mt-1 text-sm text-[var(--ff-text)]">Quote request opened yesterday</p>
+				<p class="mt-1 text-xs text-[var(--ff-text-muted)]">No response sent yet</p>
 			</div>
 
 			<div
@@ -144,14 +158,26 @@
 			</div>
 
 			<div
-				class="relative overflow-hidden rounded-[1.35rem] border border-[rgba(56,213,255,0.16)] bg-[#101827] p-4 shadow-[0_30px_100px_rgba(0,0,0,0.45)]"
+				class="relative overflow-hidden rounded-[1.35rem] border border-[rgba(56,213,255,0.16)] bg-[#101827] p-3 shadow-[0_30px_100px_rgba(0,0,0,0.45)]"
 			>
 				<div
 					class="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(56,213,255,0.12),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(94,242,184,0.08),transparent_36%)]"
 				></div>
 
 				<div
-					class="relative rounded-[1rem] border border-[rgba(255,255,255,0.07)] bg-[rgba(8,11,16,0.74)] p-5"
+					class="relative mb-3 flex items-center justify-between rounded-t-[1rem] border border-[rgba(255,255,255,0.07)] bg-[rgba(8,11,16,0.62)] px-4 py-3"
+				>
+					<div class="flex items-center gap-2">
+						<span class="h-2.5 w-2.5 rounded-full bg-[rgba(255,107,122,0.85)]"></span>
+						<span class="h-2.5 w-2.5 rounded-full bg-[rgba(255,184,107,0.85)]"></span>
+						<span class="h-2.5 w-2.5 rounded-full bg-[rgba(94,242,184,0.85)]"></span>
+					</div>
+
+					<p class="text-xs font-medium text-[var(--ff-text-muted)]">followflow.app / today</p>
+				</div>
+
+				<div
+					class="relative rounded-b-[1rem] border border-[rgba(255,255,255,0.07)] bg-[rgba(8,11,16,0.74)] p-5"
 				>
 					<div class="flex items-center justify-between gap-4">
 						<div>
@@ -280,11 +306,25 @@
 				</div>
 
 				<div
-					class="rounded-[var(--ff-radius-xl)] border border-[rgba(56,213,255,0.14)] bg-[rgba(56,213,255,0.045)] p-6"
+					class="relative overflow-hidden rounded-[var(--ff-radius-xl)] border border-[rgba(56,213,255,0.22)] bg-[rgba(56,213,255,0.06)] p-6 shadow-[0_0_50px_rgba(56,213,255,0.055)] md:col-span-2"
 				>
-					<p class="text-lg font-semibold text-[var(--ff-cyan)]">Revenue leaks quietly.</p>
-					<p class="mt-3 leading-7 text-[var(--ff-text-muted)]">
-						FollowFlow turns that hidden follow-up risk into a clear daily action.
+					<div
+						class="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-[rgba(56,213,255,0.12)] blur-3xl"
+					></div>
+
+					<p
+						class="relative text-sm font-semibold tracking-[0.12em] text-[var(--ff-cyan)] uppercase"
+					>
+						The hidden cost
+					</p>
+
+					<p class="relative mt-4 text-2xl font-semibold tracking-tight text-[var(--ff-text)]">
+						Revenue leaks quietly when follow-up has no priority system.
+					</p>
+
+					<p class="relative mt-4 max-w-2xl leading-7 text-[var(--ff-text-muted)]">
+						FollowFlow turns scattered signals into a clear daily action, so the founder can move
+						the warmest opportunity before the window closes.
 					</p>
 				</div>
 			</div>
@@ -321,6 +361,17 @@
 						FollowFlow surfaces the lead activity that matters: a recent quote request, an
 						unanswered reply, a warm referral, or a conversation that is starting to cool.
 					</p>
+
+					<div
+						class="mt-6 rounded-[var(--ff-radius-md)] border border-[rgba(255,255,255,0.07)] bg-[rgba(8,11,16,0.42)] p-4"
+					>
+						<p
+							class="text-xs font-semibold tracking-[0.12em] text-[var(--ff-text-muted)] uppercase"
+						>
+							Input
+						</p>
+						<p class="mt-2 text-sm text-[var(--ff-text)]">“Asked about availability yesterday.”</p>
+					</div>
 				</div>
 
 				<div
@@ -336,6 +387,15 @@
 						The dashboard translates messy follow-up into priority: what revenue may be at risk, how
 						urgent the lead is, and why this opportunity should move first.
 					</p>
+
+					<div
+						class="mt-6 rounded-[var(--ff-radius-md)] border border-[rgba(255,184,107,0.12)] bg-[rgba(8,11,16,0.42)] p-4"
+					>
+						<p class="text-xs font-semibold tracking-[0.12em] text-[var(--ff-amber)] uppercase">
+							Risk
+						</p>
+						<p class="mt-2 text-sm text-[var(--ff-text)]">$2.4k opportunity, no reply sent yet.</p>
+					</div>
 				</div>
 
 				<div
@@ -351,6 +411,17 @@
 						FollowFlow gives the founder a calm, usable next step — including a suggested reply that
 						matches the lead, the timing, and the tone of the conversation.
 					</p>
+
+					<div
+						class="mt-6 rounded-[var(--ff-radius-md)] border border-[rgba(94,242,184,0.12)] bg-[rgba(8,11,16,0.42)] p-4"
+					>
+						<p class="text-xs font-semibold tracking-[0.12em] text-[var(--ff-mint)] uppercase">
+							Output
+						</p>
+						<p class="mt-2 text-sm text-[var(--ff-text)]">
+							“Follow up first — window is still active.”
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -366,13 +437,19 @@
 					</p>
 
 					<h2 class="mt-5 max-w-3xl text-4xl leading-[0.96] font-semibold md:text-6xl">
-						See the follow-up command center in action.
+						See how FollowFlow decides who needs attention first.
 					</h2>
 
-					<p class="mt-6 max-w-2xl text-lg leading-8 text-[var(--ff-text-muted)]">
-						Explore the interactive dashboard prototype and see how FollowFlow prioritizes warm
-						leads, explains the risk, and suggests the next message.
-					</p>
+					<div class="mt-6 max-w-2xl space-y-4">
+						<p class="text-lg leading-8 text-[var(--ff-text-muted)]">
+							Explore the interactive dashboard prototype and see how a warm lead moves from
+							scattered signal to prioritized action.
+						</p>
+
+						<p class="max-w-xl text-sm leading-6 text-[rgba(244,247,250,0.68)]">
+							Built around a simple decision model: evidence, risk, and the next best follow-up.
+						</p>
+					</div>
 				</div>
 
 				<div class="flex flex-wrap gap-3 lg:justify-end">
@@ -413,30 +490,30 @@
 				<div
 					class="rounded-[var(--ff-radius-xl)] border border-[rgba(255,255,255,0.07)] bg-[rgba(255,255,255,0.025)] p-6"
 				>
-					<p class="text-lg font-semibold">Product strategy</p>
+					<p class="text-lg font-semibold">Defined the product angle</p>
 					<p class="mt-3 leading-7 text-[var(--ff-text-muted)]">
-						Positioned around follow-up momentum, revenue leakage, and overloaded founder
-						decision-making.
+						Framed FollowFlow around a specific founder problem: warm opportunities getting lost
+						because follow-up has no clear priority system.
 					</p>
 				</div>
 
 				<div
 					class="rounded-[var(--ff-radius-xl)] border border-[rgba(255,255,255,0.07)] bg-[rgba(255,255,255,0.025)] p-6"
 				>
-					<p class="text-lg font-semibold">Interface design</p>
+					<p class="text-lg font-semibold">Designed the decision model</p>
 					<p class="mt-3 leading-7 text-[var(--ff-text-muted)]">
-						Built around a calm command-center model: priority, reasoning, risk, and suggested
-						action.
+						Created the Evidence → Risk → Action flow so the interface explains why a lead matters,
+						not just which lead appears first.
 					</p>
 				</div>
 
 				<div
 					class="rounded-[var(--ff-radius-xl)] border border-[rgba(255,255,255,0.07)] bg-[rgba(255,255,255,0.025)] p-6"
 				>
-					<p class="text-lg font-semibold">Front-end execution</p>
+					<p class="text-lg font-semibold">Built the front-end prototype</p>
 					<p class="mt-3 leading-7 text-[var(--ff-text-muted)]">
-						Implemented as a responsive SvelteKit and TailwindCSS prototype with shared product
-						language.
+						Implemented the marketing page and dashboard prototype in SvelteKit and TailwindCSS with
+						a shared visual system.
 					</p>
 				</div>
 			</div>
