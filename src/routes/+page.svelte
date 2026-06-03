@@ -17,12 +17,24 @@
 		content="A calm AI command center for prioritizing warm leads, surfacing revenue at risk, and suggesting the next follow-up."
 	/>
 	<meta property="og:type" content="website" />
+	<meta property="og:image" content="/og-followflow.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta
+		property="og:image:alt"
+		content="FollowFlow social preview showing the headline Move the lead before momentum drops beside a product dashboard."
+	/>
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="FollowFlow — AI Follow-Up Command Center" />
 	<meta
 		name="twitter:description"
 		content="Know who to follow up with next — and what to say — before warm leads go cold."
+	/>
+	<meta name="twitter:image" content="/og-followflow.png" />
+	<meta
+		name="twitter:image:alt"
+		content="FollowFlow social preview showing the headline Move the lead before momentum drops beside a product dashboard."
 	/>
 </svelte:head>
 
