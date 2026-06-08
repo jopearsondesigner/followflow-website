@@ -82,12 +82,12 @@
 			</p>
 
 			<h1
-				class="mt-5 max-w-4xl text-5xl leading-[0.92] font-semibold tracking-[-0.065em] md:text-7xl xl:text-[5.4rem]"
+				class="mt-5 max-w-4xl text-[2.65rem] leading-[0.94] font-semibold tracking-[-0.06em] md:text-7xl xl:text-[5.4rem]"
 			>
 				Stop letting warm leads cool off quietly.
 			</h1>
 
-			<p class="mt-6 max-w-2xl text-lg leading-8 text-[var(--ff-text-muted)]">
+			<p class="mt-6 max-w-2xl text-[1.0625rem] leading-8 text-[var(--ff-text-muted)]">
 				FollowFlow shows founder-led service businesses who to follow up with next, why it matters,
 				and what to say before momentum drops.
 			</p>
@@ -112,33 +112,55 @@
 
 			<div class="mt-10 grid max-w-xl gap-3 sm:grid-cols-3">
 				<div
-					class="rounded-[var(--ff-radius-md)] border border-[rgba(255,255,255,0.07)] bg-[rgba(255,255,255,0.025)] p-4"
+					class="relative overflow-hidden rounded-[var(--ff-radius-md)] border border-[rgba(56,213,255,0.16)] bg-[linear-gradient(145deg,rgba(56,213,255,0.055),rgba(255,255,255,0.018)_42%,rgba(255,255,255,0.012))] p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.045)]"
 				>
-					<p class="text-xs font-semibold tracking-[0.12em] text-[var(--ff-cyan)] uppercase">
+					<div
+						class="pointer-events-none absolute -top-10 -left-10 h-24 w-24 rounded-full bg-[rgba(56,213,255,0.12)] blur-2xl"
+					></div>
+
+					<p
+						class="relative text-xs font-semibold tracking-[0.12em] text-[var(--ff-cyan)] uppercase"
+					>
 						Example signal
 					</p>
-					<p class="mt-3 text-2xl font-semibold tracking-tight">$8.7k</p>
-					<p class="mt-1 text-xs leading-5 text-[var(--ff-text-muted)]">in open opportunities</p>
+					<p class="relative mt-3 text-2xl font-semibold tracking-tight">$8.7k</p>
+					<p class="relative mt-1 text-xs leading-5 text-[var(--ff-text-muted)]">
+						in open opportunities
+					</p>
 				</div>
 
 				<div
-					class="rounded-[var(--ff-radius-md)] border border-[rgba(255,255,255,0.07)] bg-[rgba(255,255,255,0.025)] p-4"
+					class="relative overflow-hidden rounded-[var(--ff-radius-md)] border border-[rgba(255,184,107,0.16)] bg-[linear-gradient(145deg,rgba(255,184,107,0.045),rgba(255,255,255,0.018)_42%,rgba(255,255,255,0.012))] p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.045)]"
 				>
-					<p class="text-xs font-semibold tracking-[0.12em] text-[var(--ff-amber)] uppercase">
+					<div
+						class="pointer-events-none absolute -top-10 -left-10 h-24 w-24 rounded-full bg-[rgba(255,184,107,0.10)] blur-2xl"
+					></div>
+
+					<p
+						class="relative text-xs font-semibold tracking-[0.12em] text-[var(--ff-amber)] uppercase"
+					>
 						Queue pressure
 					</p>
-					<p class="mt-3 text-2xl font-semibold tracking-tight">7</p>
-					<p class="mt-1 text-xs leading-5 text-[var(--ff-text-muted)]">leads need attention</p>
+					<p class="relative mt-3 text-2xl font-semibold tracking-tight">7</p>
+					<p class="relative mt-1 text-xs leading-5 text-[var(--ff-text-muted)]">
+						leads need attention
+					</p>
 				</div>
 
 				<div
-					class="rounded-[var(--ff-radius-md)] border border-[rgba(94,242,184,0.12)] bg-[rgba(94,242,184,0.035)] p-4"
+					class="relative overflow-hidden rounded-[var(--ff-radius-md)] border border-[rgba(94,242,184,0.18)] bg-[linear-gradient(145deg,rgba(94,242,184,0.065),rgba(255,255,255,0.02)_42%,rgba(94,242,184,0.018))] p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.055),0_16px_42px_rgba(94,242,184,0.055)]"
 				>
-					<p class="text-xs font-semibold tracking-[0.12em] text-[var(--ff-mint)] uppercase">
+					<div
+						class="pointer-events-none absolute -top-10 -left-10 h-24 w-24 rounded-full bg-[rgba(94,242,184,0.13)] blur-2xl"
+					></div>
+
+					<p
+						class="relative text-xs font-semibold tracking-[0.12em] text-[var(--ff-mint)] uppercase"
+					>
 						Next best move
 					</p>
-					<p class="mt-3 text-2xl font-semibold tracking-tight">1</p>
-					<p class="mt-1 text-xs leading-5 text-[var(--ff-text-muted)]">
+					<p class="relative mt-3 text-2xl font-semibold tracking-tight">1</p>
+					<p class="relative mt-1 text-xs leading-5 text-[var(--ff-text-muted)]">
 						follow-up rises to the top
 					</p>
 				</div>
@@ -171,14 +193,14 @@
 			</div>
 
 			<div
-				class="relative overflow-hidden rounded-[1.35rem] border border-[rgba(56,213,255,0.16)] bg-[#101827] p-3 shadow-[0_30px_100px_rgba(0,0,0,0.45)]"
+				class="relative overflow-hidden rounded-[1.35rem] border border-[rgba(255,255,255,0.10)] bg-[linear-gradient(to_bottom,rgba(40,48,60,0.96),rgba(24,30,40,0.96))] p-3 shadow-[0_30px_100px_rgba(0,0,0,0.45)]"
 			>
 				<div
 					class="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(56,213,255,0.12),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(94,242,184,0.08),transparent_36%)]"
 				></div>
 
 				<div
-					class="relative mb-3 flex items-center justify-between rounded-t-[1rem] border border-[rgba(255,255,255,0.07)] bg-[rgba(8,11,16,0.62)] px-4 py-3"
+					class="relative mb-3 flex items-center justify-between rounded-t-[1rem] border border-[rgba(255,255,255,0.08)] bg-[rgba(55,62,74,0.88)] px-4 py-3"
 				>
 					<div class="flex items-center gap-2">
 						<span class="h-2.5 w-2.5 rounded-full bg-[rgba(255,107,122,0.85)]"></span>
@@ -363,25 +385,31 @@
 
 			<div class="mt-14 grid gap-4 lg:grid-cols-3">
 				<div
-					class="rounded-[var(--ff-radius-xl)] border border-[rgba(255,255,255,0.07)] bg-[rgba(255,255,255,0.025)] p-7"
+					class="relative overflow-hidden rounded-[var(--ff-radius-xl)] border border-[rgba(56,213,255,0.16)] bg-[linear-gradient(145deg,rgba(56,213,255,0.055),rgba(255,255,255,0.018)_42%,rgba(255,255,255,0.012))] p-7 shadow-[inset_0_1px_0_rgba(255,255,255,0.045)]"
 				>
-					<p class="text-sm font-semibold tracking-[0.14em] text-[var(--ff-cyan)] uppercase">
+					<div
+						class="pointer-events-none absolute -top-14 -left-14 h-32 w-32 rounded-full bg-[rgba(56,213,255,0.12)] blur-3xl"
+					></div>
+
+					<div class="relative h-1 w-10 rounded-full bg-[var(--ff-cyan)]"></div>
+
+					<p
+						class="relative mt-6 text-sm font-semibold tracking-[0.14em] text-[var(--ff-cyan)] uppercase"
+					>
 						01 / Evidence
 					</p>
 
-					<h3 class="mt-5 text-2xl font-semibold tracking-tight">Find the signal.</h3>
+					<h3 class="relative mt-5 text-2xl font-semibold tracking-tight">Find the signal.</h3>
 
-					<p class="mt-4 leading-7 text-[var(--ff-text-muted)]">
+					<p class="relative mt-4 leading-7 text-[var(--ff-text-muted)]">
 						FollowFlow surfaces the lead activity that matters: a recent quote request, an
 						unanswered reply, a warm referral, or a conversation that is starting to cool.
 					</p>
 
 					<div
-						class="mt-6 rounded-[var(--ff-radius-md)] border border-[rgba(255,255,255,0.07)] bg-[rgba(8,11,16,0.42)] p-4"
+						class="relative mt-6 rounded-[var(--ff-radius-md)] border border-[rgba(56,213,255,0.12)] bg-[rgba(8,11,16,0.46)] p-4"
 					>
-						<p
-							class="text-xs font-semibold tracking-[0.12em] text-[var(--ff-text-muted)] uppercase"
-						>
+						<p class="text-xs font-semibold tracking-[0.12em] text-[var(--ff-cyan)] uppercase">
 							Input
 						</p>
 						<p class="mt-2 text-sm text-[var(--ff-text)]">“Asked about availability yesterday.”</p>
@@ -389,21 +417,31 @@
 				</div>
 
 				<div
-					class="rounded-[var(--ff-radius-xl)] border border-[rgba(255,184,107,0.14)] bg-[rgba(255,184,107,0.035)] p-7"
+					class="relative overflow-hidden rounded-[var(--ff-radius-xl)] border border-[rgba(255,184,107,0.18)] bg-[linear-gradient(145deg,rgba(255,184,107,0.055),rgba(255,255,255,0.016)_42%,rgba(8,11,16,0.16))] p-7 shadow-[inset_0_1px_0_rgba(255,255,255,0.045)]"
 				>
-					<p class="text-sm font-semibold tracking-[0.14em] text-[var(--ff-amber)] uppercase">
+					<div
+						class="pointer-events-none absolute -top-14 -left-14 h-32 w-32 rounded-full bg-[rgba(255,184,107,0.11)] blur-3xl"
+					></div>
+
+					<div class="relative h-1 w-10 rounded-full bg-[var(--ff-amber)]"></div>
+
+					<p
+						class="relative mt-6 text-sm font-semibold tracking-[0.14em] text-[var(--ff-amber)] uppercase"
+					>
 						02 / Risk
 					</p>
 
-					<h3 class="mt-5 text-2xl font-semibold tracking-tight">Understand what’s slipping.</h3>
+					<h3 class="relative mt-5 text-2xl font-semibold tracking-tight">
+						Understand what’s slipping.
+					</h3>
 
-					<p class="mt-4 leading-7 text-[var(--ff-text-muted)]">
+					<p class="relative mt-4 leading-7 text-[var(--ff-text-muted)]">
 						The dashboard translates messy follow-up into priority: what revenue may be at risk, how
 						urgent the lead is, and why this opportunity should move first.
 					</p>
 
 					<div
-						class="mt-6 rounded-[var(--ff-radius-md)] border border-[rgba(255,184,107,0.12)] bg-[rgba(8,11,16,0.42)] p-4"
+						class="relative mt-6 rounded-[var(--ff-radius-md)] border border-[rgba(255,184,107,0.16)] bg-[rgba(8,11,16,0.5)] p-4"
 					>
 						<p class="text-xs font-semibold tracking-[0.12em] text-[var(--ff-amber)] uppercase">
 							Risk
@@ -413,21 +451,31 @@
 				</div>
 
 				<div
-					class="rounded-[var(--ff-radius-xl)] border border-[rgba(94,242,184,0.14)] bg-[rgba(94,242,184,0.035)] p-7"
+					class="relative overflow-hidden rounded-[var(--ff-radius-xl)] border border-[rgba(94,242,184,0.2)] bg-[linear-gradient(145deg,rgba(94,242,184,0.07),rgba(255,255,255,0.02)_42%,rgba(94,242,184,0.018))] p-7 shadow-[inset_0_1px_0_rgba(255,255,255,0.055),0_18px_50px_rgba(94,242,184,0.055)]"
 				>
-					<p class="text-sm font-semibold tracking-[0.14em] text-[var(--ff-mint)] uppercase">
+					<div
+						class="pointer-events-none absolute -top-14 -left-14 h-32 w-32 rounded-full bg-[rgba(94,242,184,0.13)] blur-3xl"
+					></div>
+
+					<div class="relative h-1 w-10 rounded-full bg-[var(--ff-mint)]"></div>
+
+					<p
+						class="relative mt-6 text-sm font-semibold tracking-[0.14em] text-[var(--ff-mint)] uppercase"
+					>
 						03 / Action
 					</p>
 
-					<h3 class="mt-5 text-2xl font-semibold tracking-tight">Send the next message.</h3>
+					<h3 class="relative mt-5 text-2xl font-semibold tracking-tight">
+						Send the next message.
+					</h3>
 
-					<p class="mt-4 leading-7 text-[var(--ff-text-muted)]">
+					<p class="relative mt-4 leading-7 text-[var(--ff-text-muted)]">
 						FollowFlow gives the founder a calm, usable next step — including a suggested reply that
 						matches the lead, the timing, and the tone of the conversation.
 					</p>
 
 					<div
-						class="mt-6 rounded-[var(--ff-radius-md)] border border-[rgba(94,242,184,0.12)] bg-[rgba(8,11,16,0.42)] p-4"
+						class="relative mt-6 rounded-[var(--ff-radius-md)] border border-[rgba(94,242,184,0.16)] bg-[rgba(8,11,16,0.46)] p-4"
 					>
 						<p class="text-xs font-semibold tracking-[0.12em] text-[var(--ff-mint)] uppercase">
 							Output
