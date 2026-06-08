@@ -1,3 +1,4 @@
+<!--src/routes/+page.svelte-->
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import logoLight from '$lib/assets/logos/followflow-logo-light.svg';
@@ -40,11 +41,11 @@
 
 <main class="ff-page-bg min-h-screen overflow-hidden text-[var(--ff-text)]">
 	<header
-		class="fixed top-0 right-0 left-0 z-50 border-b border-[rgba(255,255,255,0.06)] bg-[rgba(8,11,16,0.72)] backdrop-blur-xl"
+		class="fixed top-0 right-0 left-0 z-50 border-b border-[rgba(255,255,255,0.055)] bg-[rgba(8,11,16,0.66)] shadow-[0_1px_0_rgba(255,255,255,0.025)] backdrop-blur-xl"
 	>
-		<div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
-			<a href={resolve('/')} class="inline-flex items-center transition-opacity hover:opacity-80">
-				<img src={logoLight} alt="FollowFlow" class="h-6 w-auto" />
+		<div class="mx-auto flex h-14 max-w-7xl items-center justify-between px-5 md:h-16 md:px-6">
+			<a href={resolve('/')} class="inline-flex items-center transition-opacity hover:opacity-85">
+				<img src={logoLight} alt="FollowFlow" class="h-5 w-auto md:h-6" />
 			</a>
 
 			<nav class="hidden items-center gap-7 text-sm text-[var(--ff-text-muted)] md:flex">
@@ -61,7 +62,7 @@
 				href="https://followflow-demo.netlify.app/dashboard"
 				target="_blank"
 				rel="noreferrer"
-				class="ff-button-secondary px-4 py-2 text-sm"
+				class="ff-button-secondary border-[rgba(167,176,190,0.22)] bg-[rgba(255,255,255,0.035)] px-3.5 py-2 text-[0.8125rem] shadow-[inset_0_1px_0_rgba(255,255,255,0.06),0_10px_30px_rgba(0,0,0,0.18)] md:px-4 md:text-sm"
 			>
 				View demo
 			</a>
@@ -342,6 +343,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section id="product" class="relative border-t border-[rgba(255,255,255,0.06)] px-6 py-28">
 		<div class="mx-auto max-w-7xl">
 			<div class="max-w-3xl">
@@ -438,6 +440,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section id="demo" class="relative border-t border-[rgba(255,255,255,0.06)] px-6 py-28">
 		<div
 			class="mx-auto max-w-7xl overflow-hidden rounded-[1.5rem] border border-[rgba(56,213,255,0.14)] bg-[rgba(17,24,39,0.72)] p-8 shadow-[0_30px_100px_rgba(0,0,0,0.35)] md:p-12"
@@ -486,6 +489,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="relative border-t border-[rgba(255,255,255,0.06)] px-6 py-24">
 		<div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.8fr_1.2fr]">
 			<div>
