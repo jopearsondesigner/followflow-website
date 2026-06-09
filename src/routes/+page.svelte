@@ -1,6 +1,8 @@
 <!--src/routes/+page.svelte-->
 <script lang="ts">
 	import { resolve } from '$app/paths';
+	import inboxDailyFlowDesktop from '$lib/assets/graphics/followflow-inbox-daily-flow-desktop.svg';
+	import inboxDailyFlowMobile from '$lib/assets/graphics/followflow-inbox-daily-flow-mobile.svg';
 	import logoLight from '$lib/assets/logos/followflow-logo-light.svg';
 </script>
 
@@ -383,7 +385,27 @@
 				</p>
 			</div>
 
-			<div class="mt-14 grid gap-4 lg:grid-cols-3">
+			<figure
+				class="relative mt-12 overflow-hidden rounded-[1.5rem] border border-[rgba(56,213,255,0.14)] bg-[linear-gradient(145deg,rgba(17,24,39,0.64),rgba(8,11,16,0.88))] p-2 shadow-[0_30px_110px_rgba(0,0,0,0.32),0_0_70px_rgba(56,213,255,0.055)] md:p-3"
+			>
+				<div
+					class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_18%_12%,rgba(56,213,255,0.10),transparent_32%),radial-gradient(circle_at_84%_76%,rgba(94,242,184,0.075),transparent_34%)]"
+				></div>
+
+				<img
+					src={inboxDailyFlowDesktop}
+					alt="Custom FollowFlow illustration showing scattered follow-up signals moving through an Evidence, Risk, and Action engine into one prioritized lead."
+					class="relative hidden w-full rounded-[1.15rem] md:block"
+				/>
+
+				<img
+					src={inboxDailyFlowMobile}
+					alt="Custom FollowFlow mobile illustration showing signal cards flowing into a FollowFlow engine and producing one follow-up-first lead card."
+					class="relative mx-auto block w-full max-w-[28rem] rounded-[1.15rem] md:hidden"
+				/>
+			</figure>
+
+			<div class="mt-10 grid gap-4 lg:grid-cols-3">
 				<div
 					class="relative overflow-hidden rounded-[var(--ff-radius-xl)] border border-[rgba(56,213,255,0.16)] bg-[linear-gradient(145deg,rgba(56,213,255,0.055),rgba(255,255,255,0.018)_42%,rgba(255,255,255,0.012))] p-7 shadow-[inset_0_1px_0_rgba(255,255,255,0.045)]"
 				>
